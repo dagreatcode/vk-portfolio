@@ -17,9 +17,10 @@ function App() {
           <Link to="Contact">Contact</Link>
         </div>
         <Switch>
-          <Route exact path="/" component={Home} />
+
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route path="/" component={Home} />
         </Switch>
       </Router>
     </div>
