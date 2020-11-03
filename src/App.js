@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Home from "./containers/Home/Home";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       <div>
         <Link to="Contact">Contact</Link>
       </div>
-      <h1>Hello World</h1> 
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
       </Router>
     </div>
   );
