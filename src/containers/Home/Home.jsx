@@ -16,7 +16,7 @@ const Home = () => {
             <div class="row">
               <div class="col-sm-3">
                 <img
-                  src="./assets/Images/img1.png"
+                  src="./img1.png"
                   class="img-thumbnail"
                   alt="..."
                 />
