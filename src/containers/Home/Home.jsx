@@ -61,3 +61,8 @@ const Home = () => {
 };
 
 export default Home;
+
+
+// .app{
+//     background-image: url(./img/img1.png);
+// }
