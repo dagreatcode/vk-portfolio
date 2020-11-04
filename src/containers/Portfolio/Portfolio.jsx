@@ -1,5 +1,4 @@
 import React from "react";
-// import img1 from "img/img1.png";
 import profileImage from "./img/img1.png";
 
 const Portfolio = () => {
