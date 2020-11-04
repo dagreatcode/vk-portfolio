@@ -2,7 +2,6 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Home from "./containers/Home/Home";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
-// import bgImage from "./img/bg.png";
 import "./App.css";
 
 function App() {
