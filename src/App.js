@@ -12,16 +12,16 @@ function App() {
           <Link to="/">Home</Link>
         </div>
         <div>
-          <Link to="Portfolio">Portfolio</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </div>
         <div>
-          <Link to="Contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </div>
         <Switch>
 
+          <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-          <Route path="/" component={Home} />
         </Switch>
       </Router>
     </div>
