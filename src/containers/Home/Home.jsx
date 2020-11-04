@@ -1,28 +1,29 @@
 import React from "react";
+import profileImage from "./img/img1.png";
 
 const Home = () => {
   return (
     <div>
-      <div class="card">
-        <div class="card-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-5">
-                <div class="page-header">
+      <div className="card">
+        <div className="card-body">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-5">
+                <div className="page-header">
                   <h1>About Me</h1>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-3">
+            <div className="row">
+              <div className="col-sm-3">
                 <img
-                  src="./img1.png"
-                  class="img-thumbnail"
+                  src={profileImage}
+                  className="img-thumbnail"
                   alt="..."
                 />
               </div>
-              <div class="col-sm-3">
-                <div class="caption">
+              <div className="col-sm-3">
+                <div className="caption">
                   <p>
                     A Little About Me. Well i have been a creator forever.
                     Music, anima, and now i want to make a living making
@@ -35,9 +36,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-8">
-                <div class="caption">
+            <div className="row">
+              <div className="col-sm-8">
+                <div className="caption">
                   <p>
                     I have a son with autism. Its alot but I know god would
                     never but too much on me i can not handle. Like This
