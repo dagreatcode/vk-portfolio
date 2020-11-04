@@ -18,8 +18,8 @@ function App() {
           <Link to="/contact">Contact</Link>
         </div>
         <Switch>
-
           <Route exact path="/" component={Home} />
+          <Route exact path="/vk-portfolio" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
