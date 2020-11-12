@@ -1,5 +1,11 @@
 # Vincent Kendrick Portfolio
 
+REPO Link:
+
+[https://github.com/dagreatcode](REPO)
+
+[![Vincent's github stats](https://github-readme-stats.vercel.app/api?username=DaGreatCode&theme=blue-green)](https://github.com/dagreatcode)
+
 ![Create React App](./src/img/img2.png)
 
 I was thinking that doing react is much better
