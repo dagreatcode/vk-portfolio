@@ -22,4 +22,3 @@ I will be updating this more and more.
 **Note: Add Bootstrap!**
 
 Doing this homework made mean helped me understand React a little more.
-.
