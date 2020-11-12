@@ -1,31 +1,37 @@
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+// import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Home from "./containers/Home/Home";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Navbar from "./containers/Navbar/Navbar";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    // <div className="App">
+    <div>  
+        <Navbar/> 
+    <Router>
         <div>
           <Link to="/">Home</Link>
         </div>
         <div>
-          <Link to="Portfolio">Portfolio</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </div>
         <div>
-          <Link to="Contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </div>
         <Switch>
-
+          <Route exact path="/" component={Home} />
+          <Route exact path="/vk-portfolio" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
-          <Route path="/" component={Home} />
         </Switch>
-      </Router>
+        </Router>
     </div>
   );
 }
 
 export default App;
+
+
