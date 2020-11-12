@@ -1,15 +1,17 @@
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+// import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Home from "./containers/Home/Home";
 import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Navbar from "./containers/Navbar/Navbar";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    // <div className="App">
+    <div>  
         <Navbar/> 
+    <Router>
         <div>
           <Link to="/">Home</Link>
         </div>
@@ -25,9 +27,11 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
-      </Router>
+        </Router>
     </div>
   );
 }
 
 export default App;
+
+

@@ -1,6 +1,6 @@
 import React from 'react';
-
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import App from '../../'
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import Home from "../../containers/Home/Home";
 import Portfolio from "../../containers/Portfolio/Portfolio";
 import Contact from "../../containers/Contact/Contact";
@@ -19,18 +19,18 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="#">Link</a> */}
-                            <Link to="/portfolio">Portfolio</Link>
+                            <Link to="Portfolio">Portfolio</Link>
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="#">Link</a> */}
-                            <Link to="/contact">Contact</Link>
+                            <Link to="Contact">Contact</Link>
                         </li>
                     </ul>
-                    <Switch>
+                    {/* <Switch>
                         <Route exact path="/" component={Home} />
                         <Route exact path="/portfolio" component={Portfolio} />
                         <Route exact path="/contact" component={Contact} />
-                    </Switch>
+                    </Switch> */}
                 </Router>
                 {/* </div> */}
             </nav>
