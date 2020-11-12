@@ -19,11 +19,11 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="#">Link</a> */}
-                            <Link to="Portfolio">Portfolio</Link>
+                            <Link to="portfolio">Portfolio</Link>
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="#">Link</a> */}
-                            <Link to="Contact">Contact</Link>
+                            <Link to="contact">Contact</Link>
                         </li>
                     </ul>
                     {/* <Switch>
