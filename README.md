@@ -2,9 +2,9 @@
 
 REPO Link:
 
-[https://github.com/dagreatcode/google-books.git](REPO)
+[https://github.com/dagreatcode](REPO)
 
-[![Vincent's github stats](https://github-readme-stats.vercel.app/api?username=DaGreatCode&theme=blue-green)](https://github.com/DaGreatCode/github-readme-stats)
+[![Vincent's github stats](https://github-readme-stats.vercel.app/api?username=DaGreatCode&theme=blue-green)](https://github.com/dagreatcode)
 
 ![Create React App](./src/img/img2.png)
 
