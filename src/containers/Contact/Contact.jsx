@@ -36,8 +36,11 @@ const Contact = () => {
         <a href="https://workoutwatcher.herokuapp.com/">Homework</a>
         <a href="https://github.com/dagreatcode/Workout-Tracker.git">Github</a>
       </div>
-
-   
+      <h4>Activities</h4>
+      <div>
+        <a href="https://git@github.com:dagreatcode/vk-portfolio.git"/>
+        Books
+      </div>
       <div>
           <h4>LinkedIn</h4>
         <a href="https://www.linkedin.com/in/vincent-kendrick-baab171b2/">
